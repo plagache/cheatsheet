@@ -108,3 +108,6 @@ recuperer des adresse mac
 
 git checkout -b 
 git checkout "name of the branch to switch"
+doing some work and commit on the branch
+git push on the branch
+git merge "name of the branch" 
