@@ -2,7 +2,7 @@
 **    Notion day 1   **
 */
 
-- ls -a -l
+- ls -a -l -R
 - chmod r4 w2 x1
 - touch -t AAMMDDHHMMSS
 - klist
