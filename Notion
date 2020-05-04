@@ -101,3 +101,10 @@ nom de domaine : strstr
 Utilisation :
 pour comparer des fichier de mails , adresse mail, mdp, adresse mac
 recuperer des adresse mac
+
+/*
+** Notion Git
+*/
+
+git checkout -b 
+git checkout "name of the branch to switch"
