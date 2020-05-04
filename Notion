@@ -1,0 +1,103 @@
+/*
+**    Notion day 1   **
+*/
+
+- ls -a -l
+- chmod r4 w2 x1
+- touch -t AAMMDDHHMMSS
+- klist
+- ldpa whoami
+- cut
+- .diff et .patch
+- sed (visuel)
+- tr (replace)
+- cat -e
+- grep (to search)
+- find (file)
+- wc -l (count)
+- bc (calculator)
+- special caracter everywhere : \
+
+/*
+**    Notion day 2   **
+*/
+
+- while
+
+- if
+
+/*
+**    Notion day 3   **
+*/
+
+- pointeur
+
+/*
+**    Notion day 7   **
+*/
+
+- Compilation  pre process ( CPP )
+- Memory allocation : define length >> #define LEN     21
+- Malloc need a length in octet : (char*)malloc(sizeof(*str  and the library #include <stdlib.h>
+                                                           ^                              ^
+                                                         cast du type          ce qu'il vas chercher
+Don't forget to Free the memory :
+
+- assignation du malloc a l'adresse desirer
+
+- protection malloc : if (!(assignation))
+
+
+if(!(char*)malloc(sizeof(char)*(lenght)
+
+/*
+**    Notion day 10   **
+*/
+
+- Commande make
+- Makefile => fichier qui permet de lister un nombre de regles et les calls en fonction des besoin
+- Structure du Makefile : regle_a:
+tab gcc
+regle_b:
+
+- les variables des makefiles sont en majuscules.
+
+Exemples :
+
+
+
+Partie obligatoire
+* Les règles $(NAME), clean, fclean, re et all sont obligatoires.
+* Le projet est considéré comme non fonctionnel si le Makefile relink.
+* Dans le cas d’un projet multibinaire, en plus des règles précédentes, vous devez avoir une règle all compilant les deux binaires ainsi qu’une règle spécifique à chaque binaire compilé.
+* Dans le cas d’un projet faisant appel à une bibliothèque de fonctions (par exemple une libft), votre makefile doit compiler automatiquement cette bibliothèque.
+* Les sources nécessaires à la compilation de votre programme doivent être explicitement cités dans votre Makefile.
+
+Pointeur sur fonction :
+
+void     (*fname)(char);
+
+fname = &ft_putchar;
+
+fname('\n');
+
+
+/*
+**           Notion Stud           **
+*/
+
+Doubled linked list :
+
+- Encapsidation
+
+Creation d'un maillon
+
+Encapsulation : creation de la structure qui contient le first et last link
+
+Notion :
+comparaison de chaine de caractere : strcpy
+nom de domaine : strstr
+
+Utilisation :
+pour comparer des fichier de mails , adresse mail, mdp, adresse mac
+recuperer des adresse mac
